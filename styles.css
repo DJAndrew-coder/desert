@@ -2,7 +2,7 @@
 
 		font-family: 'Noto Serif', serif;
 		padding:  20px;
-		background-image: url("lake.jpg");
+		background-image: url("pav/lake.jpg");
 
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -35,7 +35,7 @@
 
 }
 .foto1{
-  margin-bottom: 20%;
+  margin-bottom: 13%;
 }
 
 .responsive {
@@ -46,25 +46,32 @@
 .img1{
   float: left;
   padding-right: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 .text1{
   background: rgba(202,168,131,0.76);
   text-align: justify;
   padding-right: 20px;
-  padding-top: 1px;
+  padding-left: 20px;
+  padding-top: 10px;
 
 }
 .text2{
   background: rgba(202,168,131,0.76);
   text-align: justify;
   padding-left: 20px;
-  padding-top: 1px;
+  padding-right: 20px;
+  padding-top: 10px;
 }
 
 
 .img2{
   float: right;
   padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+
 }
 
 .div4 {
@@ -99,6 +106,7 @@ h5{
 p{
 	color: white;
 	font-size: 22px;
+  margin: 0;
 }
 /*CAMEL WITH TITLE*/
 
@@ -140,15 +148,13 @@ p{
 
 /*RESPONSIVE HEADER*/
 .header {
+  text-align: center;
   margin: 50px;
   overflow: hidden;
   padding: 16px;
   background: rgba(224,217,197,0.27);
 }
 
-.header-left {
-    text-align: center;
-}
 
 .footer{
   text-align:center;
@@ -179,7 +185,6 @@ hr.new5 {
 
 .menu ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
 }
 
@@ -217,6 +222,7 @@ a{
   margin-right: 5px;
   margin-left: 5px;
 }
+
 /* For desktop: */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -231,19 +237,50 @@ a{
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-@media only screen and (max-width: 768px) {
+
+@media  screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
   }
+
+  .table{
+    margin: 0;
+}
+ .camel{
+  display: none;
+
+  }
 }
 
+
+
 @media screen and (max-width: 600px) {
-  .header a {
-    float: none;
+  .header a, .main{
+    float: left;
     display: block;
+    width: 100%;
     text-align: left;
   
   }
+
+  .header{
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .table{
+    margin: 0;
+  }
+
+ .camel{
+  display: none;
+ }
+
 }
+
+
+
+
+
   
