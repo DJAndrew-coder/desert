@@ -2,7 +2,7 @@
 
 		font-family: 'Noto Serif', serif;
 		padding:  20px;
-		background-image: url("lake.jpg");
+		background-image: url("pav/lake.jpg");
 
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -70,7 +70,7 @@
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 10px;
-  padding-bottom: 190px;
+  padding-bottom: 215px;
 
 }
 .text2{
@@ -79,7 +79,7 @@
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
-  padding-bottom: 220px;
+  padding-bottom: 280px;
 }
 
 
@@ -115,9 +115,7 @@ h2{
   font-style: italic;
   color: #f1d3a7;
   text-shadow: 2px 2px 4px #000000;
- 
 }
-
 h5{
   text-align: center;
 }
@@ -211,6 +209,7 @@ hr.new6{
 [class*="col-"] {
   float: left;
   padding: 15px;
+   margin-right: 5px;
 }
 
 .menu ul {
@@ -251,7 +250,6 @@ list-style-type: disc;
 .menu{
    background: rgba(202,168,131,0.76);
    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  margin-right: 8px;
 }
 
 .desert{
@@ -259,15 +257,47 @@ list-style-type: disc;
   margin-bottom: 52px;
 }
 
-.aside{
-  text-align: justify;
-}
 
 .table{
   background: rgba(202,168,131,0.76);
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   margin-right: 7px;
 }
+
+
+/*Gyvunija*/
+
+.gyvunija{
+/*  margin: 5px;*/
+ display: inline;
+
+}
+
+.gyvunija img:hover {
+  border: 2px solid #e29b31;
+
+}
+.gyvunija img {
+ height: 293px;
+ border: 2px solid #62503a;
+ width: 33%;
+}
+.button3{
+  float: right;
+  background-color: rgba(202, 168, 131, 1);
+}
+.button3:hover {
+  background-color: #654e23;
+  color: white;
+}
+
+/*Gyv ir verslas*/
+
+.letter{
+  color:#3c301a;
+}
+
+
 /* For desktop: */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -288,6 +318,7 @@ list-style-type: disc;
 
 @media  screen and (max-width: 2100px) {
   /* For mobile phones: */
+
   .header a, .main{
     width: 90%;
   }
@@ -295,21 +326,23 @@ list-style-type: disc;
   .table{
     margin: 0;
   }
+
 }
 
 
-@media  screen and (max-width: 1890px) {
+@media  screen and (max-width: 1600px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
   }
+    .camel{
+    display: none;
+  }
+
+
   .gallery img{
     width: 100%;
   }
-   .camel{
-  /*display: none;*/
-  /* z-index: -1;*/
- }
 
   .center img{
     width: 100%;
@@ -318,14 +351,20 @@ list-style-type: disc;
 
 
 
-@media screen and (max-width: 1660px) {
+@media screen and (max-width: 1300px) {
   .camel{
     display: none;
+  }
+
+.gyvunija img {
+  height: auto;
+  width: 100%;
+
   }
 }
 
 
-@media  screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
@@ -334,6 +373,7 @@ list-style-type: disc;
   .button2{
     width: 100%;
   }
+
 
   .table{
     margin: 0;
@@ -361,6 +401,7 @@ list-style-type: disc;
     margin: 0;
     margin-bottom: 20px;
   }
+
 
   .table{
     margin: 0;
